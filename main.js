@@ -7,6 +7,10 @@ function saveGame() {
         factories: factories
     }
     localStorage.setItem("saveData",JSON.stringify(saveData))
+    document.getElementById("saveButton").innerHTML = "Saved!";
+    setTimeout(function() {
+        document.getElementById("saveButton").innerHTML = "Save Game";
+    }, 2000);
 }
 
 function loadGame() {
