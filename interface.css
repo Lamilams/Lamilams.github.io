@@ -20,6 +20,7 @@ h1 {
 .right-align {
     text-align: right;
     margin-right: 1%;
+    float: right;
 }
 .mainunit {
     margin-left: 1%;
