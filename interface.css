@@ -28,6 +28,10 @@ h1 {
     color: white;
     display: inline;
 }
+#saveButton {
+    width: 87px;
+    height: 22px;
+}
 #factoryCostText {
     display: inline;
     margin-left: 5px;
