@@ -8,7 +8,14 @@ h1 {
 }
 .counter {
     color: white;
+    font-size: 14px;
 }
 .header {
     text-align: center;
+}
+.left-align {
+    text-align: left;
+}
+.right-align {
+    text-align: right;
 }
