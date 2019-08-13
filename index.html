@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
     <title>IdleScrews - Lami</title>
@@ -10,12 +11,12 @@
     <div class="right-align">
         <p class="savedatabuttons" id="autosave">Auto-save every 10 secs </p><button class="savedatabuttons" id="saveButton" onClick="saveGame()">Save Game</button><button class="savedatabuttons" onClick="loadGame()">Load Game</button><button class="savedatabuttons" id="resetButton" onClick="confirmReset()">Hard Reset</button><button class="savedatabuttons" id="resetConfirm" onClick="hardReset()">Confirm Reset</button><button class="savedatabuttons" id="resetCancel" onClick="resetCancel()">Cancel</button>
     </div>
-    <div class="left-align">
-        <p class="counter">Screws: </p><span id="Screws" class="counter">0</span>
+    <div class="left-align, mainunit">
+        <p class="counter">Screws: <span id="Screws" class="counter">0</span></p>
         <button class="clicker" onClick="createScrew(1)">Create Screw</button>
         <br/>
-        <p class="counter">Factories: </p><span id="Factories" class="counter">0</span>
-        <button class="clicker" onClick="buyFactory()">Buy Factory</button><p class="counter">Cost: <span id="factoryCost">10</span></p>
+        <p class="counter">Factories: <span id="Factories" class="counter">0</span></p>
+        <button class="clicker" onClick="buyFactory()">Build Factory</button><span class="counter" id="factoryCostText">Cost: <span id="factoryCost">10</span></span>
     </div>
 </body>
 </html>

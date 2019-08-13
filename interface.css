@@ -15,11 +15,20 @@ h1 {
 }
 .left-align {
     text-align: left;
+    margin-left: 1%;
 }
 .right-align {
     text-align: right;
+    margin-right: 1%;
+}
+.mainunit {
+    margin-left: 1%;
 }
 #autosave {
     color: white;
     display: inline;
+}
+#factoryCostText {
+    display: inline;
+    margin-left: 5px;
 }
